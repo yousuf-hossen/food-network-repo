@@ -1,3 +1,55 @@
-h1{
-    color: chocolate;
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+.half-div{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-div h1 {
+    font-size: 50px;
+    color: #575757;
+}
+.half-div p{
+    color: #828282;
+}
+.half-div img{
+    width: 80%;
+}
+.half-div a{
+    text-decoration: none;
+    background-image: linear-gradient(#FB9E4E, #FF1E1E );
+    padding: 10px 40px;
+    color: white;
+    border-radius: 20px;
+    
+}
+section{
+    display: flex;
+    margin-bottom: 150px;
+}
+.aboutMe{
+    background-image: url(./images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+.text-recipies{
+    color:#575757;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.rcipies-card{
+    width: 30%;
+   padding-left: 5%;
+}
+.rcipies-card img{
+    width: 80%;
+}
+footer{
+    background-color:#0B0D17;
+    height: 200px;
+    text-align: center;
+}
+footer small{
+    color: white;
+   
 }
